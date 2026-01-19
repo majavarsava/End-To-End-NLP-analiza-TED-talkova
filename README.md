@@ -1,17 +1,25 @@
-# End-To-End-NLP-analiza-TED-talkova
+# End-to-End NLP analiza TED Talkova
 
-Preuzimanje audio zapisa TED Talkova (yt-dlp)
+## Opis projekta
+Projekt demonstrira izgradnju end-to-end NLP sustava za analizu govorenog sadržaja
+na primjeru TED Talkova iz područja psihologije i međuljudskih odnosa.
 
-Konverzija u WAV (16kHz, mono)
+## Skup podataka
+- TED Talks (audio zapisi)
+- Službeni TED transkripti
+- Whisper ASR transkripti
 
-ASR transkripcija (Whisper)
+## Korištene tehnike
+- Automatic Speech Recognition (Whisper)
+- Normalizacija i POS tagging
+- Named Entity Recognition
+- Ekstraktivno sažimanje (TextRank)
+- Topic modeling (LDA)
 
-Normalizacija i predobrada teksta (LV1)
+## Ulazi i izlazi
+**Ulaz:** audio zapisi (.mp3/.wav)  
+**Izlaz:** transkripti, sažeci, tematske distribucije, vizualizacije
 
-Ekstraktivno sažimanje (TextRank)
-
-Topic modeling po temama (LDA)
-
-Usporedba Whisper vs. TED transkripta
-
-Analiza utjecaja ASR pogrešaka na NLP rezultate
+## Evaluacija
+Usporedba ASR i službenih transkripata te analiza utjecaja ASR pogrešaka
+na daljnje NLP zadatke.
