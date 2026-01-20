@@ -30,3 +30,12 @@ Očekuje se da će projekt pokazati kako je moguće izgraditi end-to-end NLP sus
 ## Evaluacija
 Usporedba ASR i službenih transkripata te analiza utjecaja ASR pogrešaka
 na daljnje NLP zadatke.
+
+
+## Struktura repozitorija
+- `official_transcripts_not_cleaned/` – službeni transkripti izvučeni sa TED stranice, potrebno ih je u jednom trenu ubaciti u Google Collab ako planiramo izvoditi kod
+- `End_to_End_NLP_analiza_TED_Talkova.ipynb` – Jupyter bilježnica
+- `ted_urls.txt` - popis linkova na odabrane TED Talkove
+- `README.md` – opis projekta
+
+Projekt je implementiran u jednoj Jupyter bilježnici koja sadrži cjelokupan kod popraćen komentarima i opisima.
